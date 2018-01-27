@@ -1,0 +1,21 @@
+1. Get a platform
+2. Get a device/devices
+3. Create a context
+4. Create a command queue/s for different devices
+5. Create a .cl file
+6. Build the program
+7. Compile the program
+8. Setup the kernel
+
+/* For Mandelbrot */
+
+9. Set up xmin, xmax, ymin, ymax (HARDCODE IF NEEDED)
+10. Populate the array malloced for storing the range of the possible values ie. the real values and the imaginary values.
+11. Create the buffers corresponding to the arrays created in the previous step.
+12. Write the values from the arrays which have the inputs to the corresponding buffers.
+13. Perform EnqueueNDRangeKernel
+14. Print the output from the output buffer by doing clEnqueueReadBuffer.
+15. Clear/Flush/Free all the data structures.
+
+
+

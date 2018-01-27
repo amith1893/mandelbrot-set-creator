@@ -1,0 +1,46 @@
+bs stands for block_size
+n stands for input size
+time taken in seconds
+
+With n = 256,
+
+bs = 1, time_taken = 0.003788 s 
+bs = 4, time_taken = 0.001596 s
+bs = 8, time_taken = 0.001494 s
+bs = 16, time_taken = 0.001430 s
+bs = 32, time_taken = 0.001367 s
+bs = 256, time_taken = 0.001386 s
+
+With n = 512,
+ 
+bs = 1, time_taken = 0.010128 s
+bs = 4, time_taken = 0.002977 s 
+bs = 8, time_taken = 0.003395 s
+bs = 16, time_taken = 0.003214 s
+bs = 32, time_taken = 0.003674 s
+bs = 256, time_taken = 0.004148 s 
+bs = 512, time_taken = 0.004455 s
+
+With n = 1024, 
+
+bs = 1, time_taken = 0.036597 
+bs = 4, time_taken = 0.130247
+bs = 16, time_taken = 0.01358
+bs = 32, time_taken = 0.008337
+bs = 64, time_taken = 0.013356
+bs = 256, time_taken = 0.013907
+bs = 512, time_taken = 0.009990
+bs = 1024, time_taken = 0.007519
+
+With n = 2048, 
+
+bs = 1, time_taken = 0.135470 
+bs = 4, time_taken = 0.051974
+bs = 16, time_taken = 0.049739
+bs = 32, time_taken = 0.043793
+bs = 64, time_taken = 0.046023
+bs = 256, time_taken = 0.036724
+bs = 512, time_taken = 0.045338
+bs = 1024, time_taken = 0.040949 
+bs = 2048, time_taken = 0.040766 
+
